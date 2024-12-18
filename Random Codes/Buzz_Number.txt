@@ -1,0 +1,7 @@
+# Program to check for a Buzz Number.
+# Buzz number - a number which ends with 7 or is divisible by 7.
+a = float(input('Enter a number ='))
+if (a%7==0 and a%10==7):
+ print('It is a Buzz number.')
+else :
+ print('It is not a Buzz number. ')
